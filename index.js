@@ -4,8 +4,7 @@ const fs = require("fs")
 const generateMarkdown = require("generateMarkdown.js")
 // TODO: Create an array of questions for user input
 const questions = [
-
-{
+  {
     type: 'input',
     name: 'name',
     message: 'What is your name?',
@@ -40,7 +39,7 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
   return fs.writeFile(fileName,data, (err) => err ? console.log
-  (err): console.log ("File created"))
+  (err): console.log ("File Created"))
 };
 
 // TODO: Create a function to initialize app
