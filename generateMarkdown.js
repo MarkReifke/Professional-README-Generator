@@ -26,11 +26,12 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   if (license !== "none") {
     return `## License
-    ${license}'
+    ${license}`
   } 
 };
 
 // TODO: Create a function to generate markdown for README
+
 function generateMarkdown(data) {
 
   return `# ${data.title}
