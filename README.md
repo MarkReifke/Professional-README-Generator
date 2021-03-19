@@ -1,13 +1,13 @@
 # readme
 Link to my video below.
 https://youtu.be/CHJeK9SMDYU
-
+<img src="Screenshot.jpg" alt="ReadMe"
+          width="200" height="175"> </img>   
 <br>
 <br>
 Link to my GitHub
 https://github.com/MarkReifke/Professional-README-Generator
-<img src="Screenshot.jpg" alt="ReadMe"
-          width="250" height="250"> </img>   
+<br>
 <br>
 09 Node.js Homework: Professional README Generator
 Your Task
