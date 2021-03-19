@@ -5,6 +5,12 @@ const generateMarkdown = require("./generateMarkdown.js")
 // TODO: Create an array of questions for user input
 const questions = [
   {
+    type: 'list',
+    name: 'license',
+    message: 'Select the Lincense',
+    choices: ['Apache 2.0', 'MTI', 'GPL 3.0', 'BSD 3', 'None']
+  },
+  {
     type: 'input',
     name: 'title',
     message: 'What is the title of the project?',
@@ -57,7 +63,7 @@ function init() {
   inquirer.prompt(questions)
   .then((response) =>{
     let res= generateMarkdown(response)
-    writeToFile("readMe.md", res)
+    writeToFile("readMe", res)
   }    
 );
 } 
