@@ -26,13 +26,13 @@ const questions = [
   },
   {
     type: 'input',
-    name: 'github',
-    message: 'Enter your GitHub Username',
+    name: 'emailAddress',
+    message: 'Enter your Email',
   },
   {
     type: 'input',
-    name: 'linkedin',
-    message: 'Enter your LinkedIn URL.',
+    name: 'contribute',
+    message: 'How can you contribute?',
   },
 ];
 
