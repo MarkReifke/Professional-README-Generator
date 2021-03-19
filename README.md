@@ -1,5 +1,6 @@
 # readme
 Link to my video below.
+<br>
 https://youtu.be/CHJeK9SMDYU
 <br>
 <img src="Screenshot.jpg" alt="ReadMe"
@@ -7,6 +8,7 @@ https://youtu.be/CHJeK9SMDYU
 <br>
 <br>
 Link to my GitHub
+<br>
 https://github.com/MarkReifke/Professional-README-Generator
 <br>
 <br>
